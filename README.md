@@ -1,7 +1,7 @@
 
 <p align="center">
   <img src="./Icon_cropped.png" alt="Phiserman Logo" width="100" align="left" style="margin-right: 20px;" />
-  <h1>Phisherman - Phishing Email Detector</h1>
+  <h1>PhishShield - Phishing Email Detector</h1>
 </p>
 
 Phisherman is a Chrome Extension that detects potential phishing emails in Gmail and Outlook. It scans emails, highlights suspicious content, and provides an easy-to-use interface to start and stop scans.
