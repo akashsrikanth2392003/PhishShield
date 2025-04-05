@@ -17,7 +17,7 @@ Phisherman is a Chrome Extension that detects potential phishing emails in Gmail
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/username/phiserman.git
-   cd phisherman
+   cd PhishShield
    ```
 2. **Load the Extension in Chrome**:
    - Open Chrome and navigate to `chrome://extensions/`
