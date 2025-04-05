@@ -1,0 +1,92 @@
+html, body {
+    width: 350px;
+    height: 300px;
+}
+
+/* Center the dialog box */
+#phishshield-dialog {
+    width: 100%;
+    height: 100%;
+    background-color: #e6eaed;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+/* Header */
+#phishshield-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #434343;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+#phishshield-header h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Exit Button */
+#exit-button {
+    background-color: #c90606;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+#exit-button:hover {
+    opacity: 0.8;
+}
+
+/* Body text */
+#phishshield-body {
+    color: #000000;
+    margin: 15px 0;
+    line-height: 1.5;
+    font-size: 10px;
+}
+
+/* Scan Progress Bar */
+#scan-progress {
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(90deg, rgba(21, 84, 60, 0.4), rgba(33, 102, 77, 0.4));
+    border-radius: 5px;
+    animation: scanning 2s infinite linear;
+    margin-top: 10px;
+}
+
+@keyframes scanning {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
+/* Buttons */
+#phishshield-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #003a37;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}

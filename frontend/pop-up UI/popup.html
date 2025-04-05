@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhishShield Extension</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS file -->
+    <script src="popup.js" defer></script> <!-- Link to JavaScript file -->
+</head>
+<body>
+
+<div id="phishshield-dialog">  <!-- Updated ID -->
+    <div id="phishshield-header">  <!-- Updated ID -->
+        <h1>PhishShield</h1>
+        <button id="exit-button">EXIT</button>
+    </div>
+    <div id="phishshield-body">  <!-- Updated ID -->
+        <p>This extension allows you to search your emails for suspicious content. If detected, an alert will be displayed.</p>
+    </div>
+    <div id="scan-progress-container">
+        <div id="scan-progress"></div>
+    </div>
+    <div id="result"></div> <!-- Result div to display scan results -->
+    <div id="phishshield-buttons">  <!-- Updated ID -->
+        <button id="start-button">Start Scanning</button>
+        <button id="stop-button" disabled>Stop Scanning</button>
+    </div>
+</div>
+
+</body>
+</html>
